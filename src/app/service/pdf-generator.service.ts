@@ -1,4 +1,3 @@
-import { style } from '@angular/animations';
 import { Injectable } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import * as pdfMake from 'pdfmake/build/pdfmake';
