@@ -9,7 +9,7 @@
     "test": "ng test"
   },
   "private": false,
-  "homepage": "https://eversonmendes12.github.io/GeradorDePDF",
+  "homepage": "https://eversonmendes12.github.io/GeradorDePDF/",
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/cdk": "^16.2.14",
