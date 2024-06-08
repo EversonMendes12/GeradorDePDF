@@ -67,3 +67,19 @@ footer .title {
     justify-content: center;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .forms-fields {
+        width: 100%;
+    }
+
+    .view-pdf {
+        width: 100%;
+    }
+}

@@ -17,4 +17,8 @@ export class ViewPdfComponent implements OnInit {
   ngOnInit() {
 
   }
+
+  isMobile(): boolean {
+    return window.innerWidth <= 768;
+  }
 }

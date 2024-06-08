@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public title: string = "Titulo do sistema para gerar PDFs.";
+  public title: string = "Título do sistema para gerar PDFs.";
 }

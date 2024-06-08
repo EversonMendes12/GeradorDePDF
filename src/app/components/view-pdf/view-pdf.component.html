@@ -1,5 +1,11 @@
 <div class="content">
-    <div *ngIf="pdfGeneratorService.documentUrl" class="iframe-container">
+    <ng-container *ngIf="isMobile(); else desktopView">
+      <a [href]="pdfGeneratorService.documentUrl" download="document.pdf" class="download-link">Download PDF</a>
+    </ng-container>
+    <ng-template #desktopView>
+      <div *ngIf="pdfGeneratorService.documentUrl" class="iframe-container">
         <iframe [src]="pdfGeneratorService.documentUrl" width="100%" height="100%" frameborder="0"></iframe>
-    </div>
-</div>
+      </div>
+    </ng-template>
+  </div>
+  
