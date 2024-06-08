@@ -1,0 +1,3 @@
+Faça build em server passando sua --base-href
+
+ng build --base-href "https://eversonmendes12.github.io/MeuPortfolio/"

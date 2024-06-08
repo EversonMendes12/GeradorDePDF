@@ -1,0 +1,15 @@
+<div class="content">
+    <form [formGroup]="form">
+        <mat-form-field class="input-form-field">
+            <mat-label>Titulo</mat-label>
+            <input matInput placeholder="Ex. Pizza" [formControl]="tileForm">
+        </mat-form-field>
+        <mat-form-field class="input-form-field">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Ex. Pizza" [formControl]="nameForm">
+        </mat-form-field>
+        <div class="input-form-field">
+            <button mat-raised-button color="primary" (click)="onGerarPdf()">Salvar</button>
+        </div>
+    </form>
+</div>
