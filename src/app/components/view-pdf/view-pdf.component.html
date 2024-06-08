@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content" *ngIf="pdfGeneratorService.documentUrl">
     <ng-container *ngIf="isMobile(); else desktopView">
       <a [href]="pdfGeneratorService.documentUrl" download="document.pdf" class="download-link">Download PDF</a>
     </ng-container>
